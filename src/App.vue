@@ -1,6 +1,8 @@
 <template>
   <div id="app">
-    <AddButton></AddButton>
+    <div>
+      <AddButton></AddButton>
+    </div>
   </div>
 </template>
 
