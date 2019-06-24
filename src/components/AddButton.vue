@@ -1,12 +1,20 @@
 <template>
-  <div class="hello">
-        <md-button class="md-primary">Add new task...</md-button>
+  <div>
+    <div class="hello">
+      <md-button class="md-primary">Add new task...</md-button>
+    </div>
+    <card></card>
   </div>
 </template>
 
 <script>
+import Card from './Card.vue'
+
 export default {
   name: 'AddButton',
+  components: {
+    Card,
+  }
 };
 </script>
 
