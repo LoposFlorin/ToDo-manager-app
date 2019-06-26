@@ -1,19 +1,15 @@
 <template>
   <div id="app">
-    <div>
-      <AddButton></AddButton>
-    </div>
+      <md-button class="md-primary">Add new task...</md-button>
   </div>
 </template>
 
 <script>
-import AddButton from './components/AddButton.vue';
 
 export default {
   name: 'app',
   components: {
-    AddButton,
-  },
+  }
 };
 </script>
 
