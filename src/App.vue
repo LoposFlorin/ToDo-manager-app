@@ -2,7 +2,7 @@
   <div id="app">
       <md-button @click="addCard" class="md-primary">Add new task...</md-button>
       <ul>
-        <li v-for="(card, index) in cards" v-bind:key="cards.id"><card /></li>
+        <li v-for="(card, index) in cards" v-bind:key="index"><card /></li>
       </ul>
   </div>
 </template>
